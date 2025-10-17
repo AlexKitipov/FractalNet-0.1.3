@@ -1,6 +1,32 @@
 # FractalNet-0.1.3
 FractalNet 0.1.3 е библиотека за невронни мрежи, вдъхновена от фракталната геометрия. Включва 7 генератора, модулна архитектура, и готови PyTorch датасети за обучение върху фрактални изображения, сигнали и космически структури. Лека, поетична и разширяема.
 
+🐛 Version History
+v0.1.0
+Initial release with core fractal architecture
+
+Included unintended dependency: turtle, causing import errors in some environments
+
+v0.1.1
+Removed turtle from dependencies
+
+Improved stability and compatibility across platforms
+
+Cleaned up setup and documentation
+
+v0.1.3
+Added 7 fractal generators: Koch, Sierpinski, L-System, Dragon Curve, Mandelbrot, Julia Set, Lindenmayer
+
+Included PyTorch Dataset classes for each fractal form
+
+Introduced ReducedFractalDataset for efficient training
+
+Improved project structure: clearly separated modules (ml/, fractals/, datasets/)
+
+Finalized __init__.py with clean imports and __all__ definition
+
+Ready for PyPI publication as version 0.1.3
+
 # FractalNet Library
 
 ## 🧠 Concept and Applications
