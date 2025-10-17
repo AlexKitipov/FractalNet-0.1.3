@@ -39,3 +39,10 @@ from FractalNet.fractals.mandelbrot import MandelbrotDataset
 from FractalNet.fractals.julia import JuliaDataset
 from FractalNet.fractals.lindenmayer import LindenmayerDataset
 from FractalNet.datasets.reduced import ReducedFractalDataset
+
+model = FractalNetModel()
+dataset = KochDataset(num_samples=10)
+
+print(model)
+print(f"Number of images: {len(dataset)}")
+
